@@ -1,0 +1,10 @@
+.stories_card {
+  min-width: 130px;
+  max-width: 130px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}

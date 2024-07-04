@@ -1,0 +1,27 @@
+.card {
+  min-height: 548px;
+  min-width: 302px;
+  max-width: 302px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card img {
+  width: 100%;
+  min-height: 440px;
+  object-fit: cover;
+  border-radius: 26px;
+  margin-bottom: 26px;
+}
+
+.card h4 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.card p {
+  font-family: "Roboto", sans-serif;
+}

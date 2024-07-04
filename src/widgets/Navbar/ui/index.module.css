@@ -1,0 +1,49 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+}
+
+.logo span {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -5%;
+  cursor: pointer;
+}
+
+.logo span:last-child {
+  font-weight: 600;
+}
+
+.links ul {
+  display: flex;
+  gap: 30px;
+}
+.links ul li {
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+.auth_buttons {
+  display: flex;
+  gap: 30px;
+}
+.auth_buttons button:first-child {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.auth_buttons button:last-child {
+  border-radius: 70px;
+  border: 1px solid #282828;
+  background-color: transparent;
+  padding: 16px 24px 16px 24px;
+  font-size: 18px;
+  cursor: pointer;
+}

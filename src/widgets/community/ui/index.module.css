@@ -1,0 +1,19 @@
+.community {
+  margin-top: 108px;
+}
+
+.community_title {
+  margin-bottom: 40px;
+}
+
+.community_partners {
+  background-color: #f5f6f6;
+  min-height: 200px;
+  display: flex;
+}
+.community_mapping {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

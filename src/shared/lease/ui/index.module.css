@@ -1,0 +1,57 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+  min-height: 700;
+  max-width: 380px;
+  min-width: 380px;
+  width: 100%;
+  background-color: #f5f6f6;
+  border-radius: 26px;
+  padding: 40px 37px;
+}
+
+.card_top {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card_top h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.card_top p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.card_bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card_bottom img {
+  margin-bottom: 26px;
+}
+
+.card_bottom h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.card_bottom span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  width: 53%;
+}

@@ -1,0 +1,10 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin-bottom: 50px;
+}
+
+.title p {
+  width: 40%;
+}

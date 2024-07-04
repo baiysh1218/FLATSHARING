@@ -1,0 +1,26 @@
+.customArrow {
+  background: #282828 !important;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  z-index: 10;
+}
+
+.slick-prev,
+.slick-next {
+  width: 45px !important;
+  height: 45px !important;
+}
+
+.customArrow:hover {
+  background: #969696;
+}
+
+.arrowIcon {
+  align-self: center;
+}

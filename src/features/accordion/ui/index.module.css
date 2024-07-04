@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  margin-top: 70px;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.accordion {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  min-height: 510px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  border-radius: 26px;
+}
+
+.accordion:hover {
+  flex-basis: 65vw;
+}

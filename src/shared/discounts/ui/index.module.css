@@ -1,0 +1,24 @@
+.discount {
+  background-color: #ffffffd6;
+  padding: 16px 22px 16px 22px;
+  min-width: 182px;
+  min-height: 96px;
+  margin: 20px 20px;
+  border-radius: 26px;
+  max-width: 182px;
+}
+
+.discount h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.discount p {
+  text-decoration: line-through;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
